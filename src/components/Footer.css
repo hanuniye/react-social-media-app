@@ -1,0 +1,68 @@
+.main-container{
+    padding: 70px  120px 50px 120px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-container > h5{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.main-container > h6{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.main-container input{
+    padding: 9px 20px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    outline: none;
+}
+
+.form{
+    margin-top: 15px;
+}
+.main-container .btn{
+    padding: 7px 20px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    transition: all .30s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+.lists{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px 50px;
+    margin-top: 40px;
+}
+
+.lists .heading{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.lists h6{
+    font-size: 13px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}

@@ -238,6 +238,14 @@ body{
 }
 
 @media screen and (max-width:670px){
+  .post{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
   .login{
     height: 70px;
   }

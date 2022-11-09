@@ -79,9 +79,9 @@ export const Post = (props : Props) => {
 
 
   return (
-    <div className="post" style={{ "color":"black" , "textAlign":'center' }}>
+    <div className="post">
       <h1>{post.title}</h1>
-      <p>{post.description}</p>
+      {/* <p>{post.description}</p> */}
       <h6>{post.username}</h6>
       <button onClick={checkUserLike ? removeLike : addLike}>{checkUserLike ? <>&#128078;</> : <>&#128077;</>}</button>
       {like && <p>like:{like.length}</p>}
